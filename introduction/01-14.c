@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Write a program to print a histogram of frequencies
-of different characters in its input */
+ * of different characters in its input */
 int main()
 {
     int c, i, j, list[26];
@@ -17,7 +17,7 @@ int main()
         printf("%c : ", 'a'+i);
         for (j = 0; j < list[i]; ++j)
             putchar('*');
-            
+
         putchar('\n');
     }
 }
