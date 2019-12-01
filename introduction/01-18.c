@@ -27,7 +27,7 @@ int main()
 }
 
 /* 
- * getLine: read a line into s, if input is js just
+ * getLine: read a line into s, if input is just
  * blank space return 1, else return length.
  */
 int getLine(char s[])
