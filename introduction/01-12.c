@@ -1,7 +1,9 @@
+/* 
+ * Write a program that prints its input one word per line.
+ */ 
 #include <stdio.h>
 
-/* Write a program that prints its input one wor per line */
-int main()
+    int main()
 {
     int c;
     while ((c = getchar()) != EOF) {

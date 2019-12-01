@@ -1,8 +1,11 @@
+/* 
+ * Write a program to print a histogram of frequencies
+ * of different characters in its input.
+ */
+
 #include <stdio.h>
 
-/* Write a program to print a histogram of frequencies
- * of different characters in its input */
-int main()
+    int main()
 {
     int c, i, j, list[26];
 

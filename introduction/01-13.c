@@ -1,8 +1,11 @@
+/* 
+ * Write a program to print a histogram of lengths of
+ * words in its input.
+ */
+
 #include <stdio.h>
 
-/* Write a program to print a histogram of lengths of
- * words in its input. */
-int main()
+    int main()
 {
     int c;
 

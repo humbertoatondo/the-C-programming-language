@@ -1,10 +1,13 @@
+/*
+ * Print Fahrenheit-Celsius table.
+ */
+
 #include <stdio.h>
 
 #define LOWER  0      /* lower limit of temperature table */
 #define UPPER  300    /* upper limit of temperature table */
 #define STEP   20     /* step size */
 
-/* Print Fahrenheit-Celsius table */
 int main()
 {
     printf("  F\t C\n");

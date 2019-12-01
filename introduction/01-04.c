@@ -1,10 +1,13 @@
+/*
+ * Print Celsius-Fahrenheit table.
+ */
+
 #include <stdio.h>
 
 #define LOWER  0      /* Lower limit of temperature table */
 #define UPPER  300    /* Upper limit of temperature table */
 #define STEP   20     /* Step size */
 
-/* Print Celsius-Fahrenheit table */
 int main()
 {
     printf("  C\t F\n");
