@@ -18,7 +18,8 @@ int main()
     while ((len = getLine(line)) > 0)
         reverse(line, len);
 }
- /* getLine: read a lien into s. */
+
+ /* getLine: read a line into s. */
 int getLine(char s[])
 {
     int i, c;
